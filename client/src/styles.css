@@ -1,0 +1,344 @@
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Hind Guntur', sans-serif;
+font-family: 'Candal', sans-serif;
+font-family: 'Faster One', cursive;
+font-family: 'Monofett', cursive; */
+
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+/* .app-wrapper {
+    background: linear-gradient(to bottom right, #FDA8A2, #FD779C, #B7F8DB, #50A7C2); 
+} */
+
+body {
+    /* background: linear-gradient(to bottom right, #FDA8A2, #FD779C, #B7F8DB, #50A7C2);  */
+    background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/31732091_10155823372578218_7275328485189484544_o.jpg?_nc_cat=0&oh=7bf8472c0f37eaf5274e2175caf72779&oe=5B8F0313");
+    background-repeat: repeat; 
+    background-size: 150px; 
+}
+
+.nav {
+    width: 100; 
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+.link {
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+    text-decoration: none; 
+    padding: 10px; 
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    padding-right: 50px; 
+    padding-left: 50px; 
+    background-color: white; 
+    font-size: 20px; 
+}
+
+@media only screen and (min-width: 650px){
+    .nav{
+        display: block; 
+        position: relative; 
+    }
+    .link {
+        display: inline-block; 
+        text-align:justify;
+        text-align-last:center;
+    }
+}
+
+
+.link:hover {
+    color: white; 
+    background-color: black; 
+}
+
+header {
+    position: relative; 
+    background-color: black; 
+    margin: 0 auto; 
+    text-align: center; 
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.homepage {
+    /* position: relative; 
+    margin: 0 auto;  */
+    text-align: center; 
+    padding: 50px; 
+    /* margin-top: 30px; 
+    margin-bottom: 30px; */
+}
+
+.homeFont {
+    font-size: 20px;   
+}
+
+.readable {
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    color: black; 
+}
+
+h1 {
+    padding: 20px; 
+    font-family: 'Shrikhand', cursive;
+    /* font-family: 'Faster One', cursive; */
+    /* font-family: 'Monofett', cursive; */
+}
+
+h2 {
+    padding: 20px; 
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h3 {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+h4 {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+p {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50%; 
+    height: 200px; 
+}
+
+img:hover {
+    height: 300px; 
+    transition: .6s; 
+}
+
+.mainImg {
+    border: 2px solid black;
+    height: 200px; 
+    border-radius: 50%; 
+    height: 200px; 
+    transition: .6s; 
+}
+
+.viewArtistLink {
+    border: 1px solid blueviolet; 
+    padding: 15px;
+    padding-left: 25px; 
+    padding-right: 25px;  
+    margin: 20px; 
+    margin-top: 50px; 
+    border-radius: 10px;
+    text-decoration: none; 
+    box-shadow: 2px 3px greenyellow; 
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+    background-color: black;
+}
+
+.artist {
+    position: relative; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.artistSection {
+    display: relative;
+    margin: 20px auto;
+    width: 90%; 
+}
+
+.event {
+    position: relative; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.eventSection {
+    position: relative; 
+    margin: 10px auto; 
+    padding: 10px; 
+    background-color: white; 
+    width: 75%;
+    color: black; 
+    border-radius: 10px; 
+}
+
+@media screen and (min-width: 1020px){
+    .eventSection{
+        width: 50%; 
+    }   
+}
+
+@media screen and (min-width: 1200px){
+    .eventSection{
+        width: 30%; 
+    }   
+    p {
+        display: relative; 
+        margin: 0 auto; 
+        width: 50%; 
+    }
+}
+
+.button {
+    /* background-color: linear-gradient(bottom right, #f1f4f6, #d8dfe3, #e5ebee, #f6f8f9); */
+    box-shadow: 5px 5px 4px  rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 8px; 
+    margin: 5px; 
+}
+
+.addEventButton {
+    box-shadow: 5px 5px 4px  rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 8px; 
+    margin: 5px; 
+    /* display: none */
+}
+.editForm {
+    background-color: black; 
+    margin: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.editInput{
+    padding: 5px; 
+    margin: 10px; 
+    margin-right: 15px; 
+    margin-left: 15px; 
+    width: 80%; 
+}
+
+.eventForm {
+    background-color: gray; 
+    margin: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.eventInput {
+    padding: 5px; 
+    margin: 10px; 
+    margin-right: 15px; 
+    margin-left: 15px; 
+    width: 80%; 
+}
+
+.formDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.addForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 20px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.addInput{
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    margin: 10px; 
+    margin-right: 15px; 
+    margin-left: 15px; 
+    width: 400px; 
+    border-radius: 10px; 
+}
+
+.addButton {  
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    box-shadow: 5px 5px 4px  rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 8px;
+    background-color: white; 
+    width: 50%; 
+    margin-left: 190px; 
+}
+
+.content-wrapper {
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 90px; 
+}
+
+.center {
+    display: flex; 
+    justify-content: center;
+}
+
+.flex {
+    display: flex; 
+    justify-content: center;
+    background-color: white; 
+    width: 100%; 
+}
+
+.contact {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    margin: 20px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.contactInput{
+    display: flex; 
+    justify-content: center; 
+    padding: 10px; 
+    margin: 10px; 
+    margin-right: 15px; 
+    margin-left: 15px; 
+    width: 400px; 
+    border-radius: 10px; 
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px;
+    text-align: right; 
+    padding-right: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+.footerp {
+    width: 100%; 
+}
