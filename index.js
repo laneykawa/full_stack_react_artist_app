@@ -22,7 +22,7 @@ app.use("/api/contacts", contactRouter);
 app.use("/api/events", eventRouter); 
 
 // updated Mongoose says you don't have to put the MDB port number. Then this is the database name. 
-mongoose.connect(process.env.MONGO_URI || "mongodb://localhost/people", (err) => {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/people", (err) => {
     if (err) console.error(err);
     console.log("Connected to MongoDB");
 })
